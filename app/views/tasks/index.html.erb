@@ -1,5 +1,6 @@
 <center><p id="notice"><%= notice %></p><center>
 <br><br><br><br>
+<div class="align_right"><%= link_to 'Bact to Projects', projects_path%></div>
 <h1><%= @project.name.capitalize %> Tasks</h1>
 <div class="align_right"><%= link_to 'New Task', new_task_path(project_id: @project.id) %></div>
 
